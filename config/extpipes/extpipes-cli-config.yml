@@ -66,11 +66,11 @@ rawdbs:
                         send-notification: false
     - rawdb-name: src:002:opcua:db
       dataset-external-id: src:002:opcua:ds
-      short-name: sap
+      short-name: opcua
       rawtables:
           - rawtable-name: datapoints
             pipelines:
-                - source: api
+                - source: ice-cream-api
                   schedule: On trigger
                   contacts:
                       - name: Sharizan
